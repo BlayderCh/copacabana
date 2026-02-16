@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información del Viaje – Copacabana</title>
+
+  <!-- FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #e8f5e9, #f1f8f4);
+      color: #2e3d34;
+    }
+
+    header {
+      background: linear-gradient(rgba(27,94,32,0.65), rgba(46,125,50,0.65)),
+                  url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 58px;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 35px;
+      margin-bottom: 35px;
+      border-radius: 25px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      color: #2e7d32;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .item {
+      margin: 12px 0;
+      padding-left: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 38px;
+      background: linear-gradient(135deg, #43a047, #1b5e20);
+      color: white;
+      text-decoration: none;
+      border-radius: 40px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #1b5e20;
+      background: #dcedc8;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 40px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      .card {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Información del Viaje</h1>
+    <p>Descubre la belleza natural y espiritual de Copacabana y el Lago Titicaca</p>
+  </header>
+
+  <div class="container">
+
+    <!-- HORARIO -->
+    <div class="card">
+      <h2>🕒 Horario del Viaje</h2>
+      <div class="item">05:00 – Desayuno</div>
+      <div class="item">05:30 – Preparación</div>
+      <div class="item">06:00 – Punto de encuentro</div>
+      <div class="item">06:30 – Salida hacia Copacabana</div>
+      <div class="item">10:30 – Llegada y lonch</div>
+      <div class="item">11:00 – Recorrido por Copacabana </div>
+      <div class="item">12:30 – Almuerzo</div>
+      <div class="item">13:30 – Recorrido por Copacabana</div>
+      <div class="item">15:00 – Paseo en Lancha</div>
+      <div class="item">17:00 – Retorno a la Paz</div>
+      <div class="item">21:00 – Llegada al hotel</div>
+    </div>
+
+    <!-- SEGURIDAD -->
+    <div class="card">
+      <h2>🦺 Medidas de Seguridad</h2>
+      <div class="item">✔ Seguir siempre al guía turístico</div>
+      <div class="item">✔ Mantenerse hidratado</div>
+      <div class="item">✔ Respetar las normas del lago</div>
+      <div class="item">✔ No alejarse del grupo</div>
+      <div class="item">✔ Cuidar el entorno natural</div>
+    </div>
+
+    <!-- INCLUYE -->
+    <div class="card">
+      <h2>🎒 ¿Qué Incluye el Viaje?</h2>
+      <div class="item">✔ Transporte ida y vuelta</div>
+      <div class="item">✔ Guía turístico especializado</div>
+      <div class="item">✔ Snacks - Bebidas</div>
+      <div class="item">✔ Seguro básico</div>
+    </div>
+
+    <!-- RECOMENDACIONES -->
+    <div class="card">
+      <h2>⚠️ Recomendaciones</h2>
+      <div class="item">✔ Llevar bloqueador solar</div>
+      <div class="item">✔ Usar ropa cómoda</div>
+      <div class="item">✔ Llevar agua y snacks</div>
+      <div class="item">✔ Cámara fotográfica</div>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Volver a la página principal</a>
+
+  </div>
+
+  <footer>
+    © Turismo Bolivia – Full Day Copacabana
+  </footer>
+
+</body>
+</html>
